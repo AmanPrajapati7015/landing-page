@@ -42,20 +42,23 @@ a, a:visited{
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px 100px;
+    gap: 20px;
 }
 
 .header-links{
     display: flex;
+    justify-content: flex-end;
     gap: 20px;
+    width: 450px;
 }
 
 .header .logo{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    width: 500px;
 }
 
 
